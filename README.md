@@ -10,7 +10,7 @@
 
 - React
 - React Router
-- RCA
+- CRA
 - Redux Toolkit
 - RTK query,
 - Axios
