@@ -1,0 +1,59 @@
+.pay {
+  width: 600px !important;
+  margin: 0 auto;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #1e1f26;
+  border-top: 3px solid #7c16c0;
+
+  &__title {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  &__text {
+    color: #cac6c6;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  &__form {
+    margin-bottom: 35px;
+    select {
+      font-size: 18px;
+      padding-right: 20px;
+      background-color: rgb(99, 93, 93);
+      color: rgb(255, 254, 254);
+    }
+  }
+  &__prompt {
+    color: #cac6c6;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-bottom: 20px;
+  }
+
+  &__buttons {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    button {
+      padding-left: 15px;
+      padding-right: 15px;
+      cursor: pointer;
+      background-color: #8e8b91;
+      color: white;
+      border-radius: 5px;
+      border: 0px;
+    }
+    button:last-child {
+      padding: 10px 50px;
+      background-color: #6197e8;
+      color: white;
+      border-radius: 5px;
+    }
+  }
+}

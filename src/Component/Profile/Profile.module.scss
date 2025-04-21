@@ -1,0 +1,77 @@
+.profile {
+  color: #cac6c6;
+  width: 750px;
+  margin: 0 auto;
+  background: rgb(30, 31, 38);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 31, 38, 0.8855917366946778) 43%,
+    rgba(116, 87, 116, 0.40379901960784315) 91%
+  );
+
+  &__img {
+    border: 2px solid rgb(0, 134, 151);
+    margin-right: 30px;
+    width: 150px;
+    height: 150px;
+  }
+
+  &__content {
+    display: flex;
+    padding: 30px 25px;
+  }
+  &__info {
+    font-size: 14px;
+    margin-right: 100px;
+  }
+}
+
+#nick {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+#about {
+  margin-bottom: 25px;
+}
+
+#lvl {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  &__num {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 4px;
+    border-radius: 20px;
+    border: 2px solid rgb(176, 20, 190);
+  }
+}
+
+#achive {
+  display: flex;
+  padding: 8px;
+  padding-right: 70px;
+  background-color: rgb(26, 26, 26, 0.7);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#achive__img {
+  cursor: pointer;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+#edit {
+  cursor: pointer;
+  border-radius: 2px;
+  width: 200px;
+  text-align: center;
+  padding: 6px;
+  color: white;
+  background-color: #6197e8;
+}

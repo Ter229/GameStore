@@ -1,0 +1,155 @@
+.game {
+  max-width: 1150px;
+  margin: 0 auto;
+  background-color: #1e1f26;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  &__title {
+    color: white;
+    font-size: 35px;
+  }
+  &__statistic {
+    font-size: 20px;
+    background-color: #7c16c0;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 8px 12px;
+  }
+
+  &__about__video {
+    width: 650px;
+    height: 350px;
+    box-shadow: 0px 0px 3px 3px #7c16c0;
+  }
+
+  &__about__img {
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 0px 3px 3px #7c16c0;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  &__text {
+    color: white;
+  }
+  &__info {
+    div {
+      padding-bottom: 2px;
+      color: #a7a8b3;
+      font-size: 12px;
+    }
+    a {
+      font-size: 16px;
+      margin-left: 60px;
+      color: #7c16c0;
+    }
+  }
+
+  &__menu {
+    max-width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      margin-right: 10px;
+    }
+  }
+  &__nav {
+    display: flex;
+    padding-left: 0px;
+    li {
+      padding: 8px 12px;
+      background-color: #7c16c0;
+      border-radius: 5px;
+    }
+    a {
+      color: white;
+    }
+  }
+  .rec {
+    padding: 8px 12px;
+    background-color: #7c16c0;
+    border-radius: 5px;
+    color: white;
+  }
+}
+
+.game__wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+
+  .game__buy {
+    max-width: 500px;
+    background-color: #1e1f26;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    &__title {
+      font-weight: 600;
+      color: white;
+    }
+    &__cart {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      #price {
+        font-weight: 600;
+        color: #294a7c;
+        background-color: #8e8b91;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin-right: 5px;
+      }
+      #cart {
+        cursor: pointer;
+        border: 0px;
+        padding: 8px 12px;
+        border-radius: 5px;
+        background-color: #6197e8;
+        color: white;
+      }
+    }
+  }
+  .game__requirements {
+    max-width: 500px;
+    &__title {
+      padding-bottom: 5px;
+      color: #ffffff;
+      border-bottom: 1px solid #6197e8;
+    }
+    &__stat {
+      display: flex;
+      margin-top: 10px;
+      font-size: 13px;
+      #min {
+        color: #8e8b91;
+        width: 250px;
+        margin-right: 100px;
+      }
+      #max {
+        color: #8e8b91;
+        width: 250px;
+      }
+    }
+    &__list {
+      padding: 0;
+      color: #8e8b91;
+      span {
+        color: #6197e8;
+      }
+      li {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

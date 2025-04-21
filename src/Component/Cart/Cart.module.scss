@@ -1,0 +1,147 @@
+.modal {
+  width: 660px !important;
+
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #1e1f26;
+  margin-left: 270px;
+  margin-right: 200px;
+  border-top: 3px solid #7c16c0;
+
+  h2 {
+    margin-top: 0px;
+    font-weight: bold;
+    color: white;
+  }
+
+  &__close {
+    margin-left: 600px;
+    background-color: inherit;
+    border: 0px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #7c16c0;
+  }
+  &__img {
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+  }
+
+  &__option {
+    display: flex;
+
+    button {
+      font-weight: 600;
+      background-color: inherit;
+      border: 0px;
+      color: white;
+      cursor: pointer;
+      padding: 0px;
+    }
+    button:first-child {
+      margin-right: 15px;
+    }
+  }
+  &__content {
+    width: 600px;
+    border-radius: 2px;
+    display: flex;
+    background-color: #7c16c0;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 500;
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    margin-left: 220px;
+  }
+
+  &__buttons {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+    cursor: pointer;
+    font-weight: 500;
+
+    div {
+      background-color: #8e8b91;
+      color: white;
+      border-radius: 5px;
+    }
+    div:last-child {
+      padding: 10px 50px;
+      background-color: #6197e8;
+      color: white;
+      border-radius: 5px;
+    }
+  }
+}
+
+#modal__title {
+  margin-bottom: 30px;
+}
+
+#modal__price {
+  margin-left: 90px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.cart__inner {
+  display: flex;
+
+  .cart__cost {
+    width: 300px;
+    height: 100%;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #1e1f26;
+
+    border-top: 3px solid #7c16c0;
+  }
+  .cart__block {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    span {
+      color: #6197e8;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .cart__title {
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      margin-right: 50px;
+    }
+  }
+  .cart__text {
+    margin-bottom: 50px;
+    color: rgb(197, 188, 188);
+  }
+
+  .cart__btn {
+    text-align: center;
+    margin-bottom: 60px;
+    button {
+      border: 0px;
+      padding: 10px 50px;
+      background-color: #6197e8;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 14px;
+    }
+  }
+}
